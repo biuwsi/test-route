@@ -1,0 +1,7 @@
+route:
+  policy: resource
+  resource-policy:
+    file: classpath:countries.json
+  remote-policy:
+    url: https://raw.githubusercontent.com/mledoze/countries/master/countries.json
+  algorithm: bts

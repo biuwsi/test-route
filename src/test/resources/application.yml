@@ -1,0 +1,4 @@
+route:
+  policy: resource
+  resource-policy:
+    file: classpath:test-countries.json
